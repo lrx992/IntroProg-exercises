@@ -1,7 +1,7 @@
 # a. plot
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1,projection='3d')
-ax.plot_surface(x1_grid,x2_grid,u_grid,cmap=cm.jet)
+ax.plot_surface(x1_grid,x2_grid,u_grid,)
 
 # b. add labels
 ax.set_xlabel('$x_1$')
